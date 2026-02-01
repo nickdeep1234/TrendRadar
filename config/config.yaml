@@ -89,14 +89,73 @@ rss:
     - id: "hacker-news"
       name: "Hacker News"
       url: "https://hnrss.org/frontpage"
-      # max_age_days: 1               # 示例：只推送1天内的文章
+      max_age_days: 1               # 示例：只推送1天内的文章
 
     
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
-      enabled: false                  # 禁用
+      enabled: false  
+      # 禁用
+      
+    - id: "https://sspai.com/feed"
+      name: "少数派"
+      url: "https://sspai.com/feed"
+      enabled: false 
 
+    - id: "https://sspai.com/feed"
+      name: "少数派"
+      url: "https://sspai.com/feed"
+      enabled: false 
+    
+    - id: "https://rsshub.app/infzm/2"
+      name: "南方周末新闻"
+      url: "https://rsshub.app/infzm/2"
+      enabled: false  
+
+    - id: "https://36kr.com/feed"
+      name: "36k"
+      url: "https://36kr.com/feed"
+      enabled: false
+
+    - id: "https://rsshub.app/juejin/posts/1838039172387262"
+      name: "掘金专栏"
+      url: "https://rsshub.app/juejin/posts/1838039172387262"
+      enabled: false
+      
+    - id: "whxw"
+      name: "新华社新闻网"
+      url: "https://plink.anyfeeder.com/newscn/whxw"
+      enabled: false
+
+    - id: "wallstreetcn"
+      name: "华尔街见闻"
+      url: "https://plink.anyfeeder.com/weixin/wallstreetcn"
+      enabled: false
+
+    - id: "https://plink.anyfeeder.com/ "新京报"
+      url: "https://plink.anyfeeder.com/bjnews"
+      enabled: false
+
+    - id: "caixinwang"
+      name: "财新网"
+      url: "https://plink.anyfeeder.com/weixin/caixinwang"
+      enabled: false
+
+    - id: "ScientificAmerican"
+      name: "环球科学"
+      url: "https://plink.anyfeeder.com/weixin/ScientificAmerican"
+      enabled: false
+
+    - id: "hqsbwx"
+      name: "环球时报"
+      url: "https://plink.anyfeeder.com/weixin/hqsbwx"
+      enabled: false      
+
+    - id: "thepapernews"
+      name: "澎湃新闻"
+      url: "https://plink.anyfeeder.com/weixin/thepapernews"
+      enabled: false  
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
